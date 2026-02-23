@@ -1,52 +1,56 @@
 👨🏻‍💻**Customer Behavior Data Analyst Portfolio Project**
+This project analyzes customer shopping data to understand buying patterns, customer segments, and revenue trends.
 
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
+The goal is to find useful insights that can help improve sales, marketing, and customer retention.
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
-
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
-
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
-
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
 <img width="1326" height="724" alt="image" src="https://github.com/user-attachments/assets/3eb0e290-0ab7-4c3e-a333-b4eb493b9886" />
 
-How to Use This Project
-1. Clone the repository
+**Dataset**
 
-git clone https://github.com/sakshi-karn/customer-trends-data-analysis-SQL-Python-PowerBI.git
-cd customer-trends-data-analysis-SQL-Python-PowerBI
-Open Customer_Shopping_Behavior_Analysis.ipynb notebook
+File: customer_shopping_behavior.csv
 
-2. This file contains:
+Total Records: 3,900
 
-Data Import
+Includes customer details, product category, purchase amount, ratings, discounts, shipping type, and subscription status.
 
-Data exploration
+**Steps Performed**
 
-Data cleaning
+Loaded the CSV file in Python
 
-Connection to SQL Database
+Cleaned the data (handled missing values and formatted columns)
 
-3. Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
+Performed EDA to understand trends
 
-Create a database in SQL
+Exported cleaned data to PostgreSQL
 
-Run Python code to load data into SQL database
+Wrote SQL queries for business insights
 
-Open customer_behavior_sql_queries.sql
+Built an interactive Power BI dashboard
 
-Answer Business Questions using SQL Queries
+Created a final report and presentation using Gamma
 
-4. Connect the SQL Database to Power BI
+**Tools Used**
 
-Open customer_behavior_dashboard.pbix
+Python 
 
-Create interactive dashboard in Power BI
+PostgreSQL
+
+Power BI
+
+Jupyter Notebook
+
+Gamma (for presentation)
+
+**How to Run**
+
+Install required libraries:
+
+"pip install pandas numpy matplotlib seaborn psycopg2"
+
+Run the Jupyter Notebook.
+
+Execute SQL queries in PostgreSQL.
+
+Open the Power BI file to view the dashboard.
 
 
-5. Create Project Report and Presentation
-
-Create project report
-
-Built presentation deck using Gamma AI
